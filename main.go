@@ -11,7 +11,7 @@ func HelloHandler(rw http.ResponseWriter, r *http.Request) {
 }
 
 func GoodbyeHandler(rw http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(rw, "This is the Goodbye")
+	fmt.Fprintf(rw, "This is the Goodbye handler this is")
 }
 
 func main() {
