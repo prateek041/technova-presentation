@@ -7,7 +7,7 @@ import (
 )
 
 func HelloHandler(rw http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(rw, "Hello this is the first route")
+	fmt.Fprintf(rw, "This is the Hello")
 }
 
 func GoodbyeHandler(rw http.ResponseWriter, r *http.Request) {
